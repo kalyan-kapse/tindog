@@ -1,0 +1,200 @@
+
+#title {
+  background-color: #ff4c68;
+  padding: 2% 15% 18%;
+  color: white;
+}
+
+body {
+  font-family: "Montserrat;"
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+h1 {
+font-family: 'Ubuntu', sans-serif;
+font-size: 3.5rem;
+line-height: 1.5;
+}
+
+/* Navigation Bar  */
+
+.navbar {
+  padding-bottom: 10px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 45px;
+  font-weight: bold;
+}
+
+ul {
+  margin-left: auto;
+}
+
+.navbar-item {
+  padding: 0 13px;
+}
+
+.navbar-link {
+  font-family: "Montserrat-light";
+  font-size : 1.2rem;
+}
+
+/* DOWNLOAD BUTTONS */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE IMAGE  */
+
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+}
+
+@media (max-width: 996px)
+ {
+.title-image {
+  padding-top: 30px;
+  padding-bottom: 0;
+  right: 40px;
+  width: 70%;
+  position: static;
+  transform: rotate(0deg);
+}
+
+#title {
+  text-align: center;
+}
+}
+/* FEATURE PAGE */
+
+#features {
+  padding : 100px 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+h3 {
+font-family: 'Ubuntu', sans-serif;
+font-weight: bold;
+font-size: 1.5rem;
+padding-top: 15px;
+}
+
+.para-feature {
+  color: #8f8f8f;
+  text-align: center;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Icons */
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonial Section  */
+
+#testimonials {
+  background-color: #ef8172;
+  padding: 5% 15% 5% 15%;
+  text-align: center;
+  color: #fff;
+  font-family: "Ubuntu" sans-serif;
+}
+
+h2 {
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 14%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 30px;
+}
+
+/* carousel */
+.carousel-item {
+  padding: 2% 20%;
+}
+
+.ph2 {
+  font-weight: bold;
+}
+
+.pricing-head {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  mar
+}
+
+#pricing {
+  padding: 70px 100px;
+  text-align: center;
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 50px 50px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.ctah3 {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  color: #fff;
+  padding-bottom: 0;
+}
+
+.ctabutton {
+  margin-top: 20px;
+}
+
+/* Footer */
+
+#footer {
+  padding: 90px 60px 40px 60px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer-text {
+  color :  #8f8f8f;
+  padding-top: 10px;
+}
+
+.media-logo {
+  padding: 3px 10px 4px;
+
+}
